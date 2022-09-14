@@ -1,5 +1,7 @@
 # Work your ass off!
 
+![pages-build-deployment](https://github.com/thermo911/workyourassoff/actions/workflows/pages/pages-build-deployment/badge.svg)
+
 *Александр Блажков, M33001*
 
 Проект по дисциплине "Web-программирование", который нужен каждому.
