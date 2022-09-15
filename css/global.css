@@ -1,7 +1,31 @@
+* {
+    color: black;
+}
+
+body, html {
+    height: 100%;
+}
+
+header {
+    padding: 0.5%;
+    margin: 0.5%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+footer {
+    padding: 0.5%;
+    margin: 0.5%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
 body {
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: center center;
+    background-color: black;
+    padding: 0.5%;
 }
 
 body.index {
@@ -20,11 +44,26 @@ body.thought {
     background-image: url('../media/images/road.jpeg');
 }
 
-header {
+footer {
     box-sizing: border-box;
     width: 100%;
 }
 
 .blurred-back {
+    background-color: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(5px);
+}
+
+.centered {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.rounded-angles {
+    border-radius: 5px;
+}
+
+nav {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
