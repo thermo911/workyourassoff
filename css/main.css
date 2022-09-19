@@ -1,0 +1,14 @@
+@import url('./body/body.css');
+@import url('./commons/commons.css');
+@import url('./footer/footer.css');
+@import url('./header/header.css');
+@import url('./text/text.css');
+@import url('./wisdom/wisdom.css');
+
+html {
+    height: 100%;
+}
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
