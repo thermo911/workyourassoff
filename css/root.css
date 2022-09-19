@@ -2,8 +2,11 @@
 @import url('./commons/commons.css');
 @import url('./footer/footer.css');
 @import url('./header/header.css');
+@import url('./main/main.css');
+@import url('./menu/menu.css');
 @import url('./text/text.css');
 @import url('./wisdom/wisdom.css');
+
 
 html {
     height: 100%;
