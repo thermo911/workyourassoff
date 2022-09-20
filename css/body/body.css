@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: black;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+body.index {
+    background-image: url('../../resources/images/mountains.jpeg');
+}
+
+body.goals {
+    background-image: url('../../resources/images/darts.jpeg');
+}
+
+body.sport {
+    background-image: url('../../resources/images/gym-ring-boxing.jpeg');
+}
+
+body.thought {
+    background-image: url('../../resources/images/road.jpeg');
+}
