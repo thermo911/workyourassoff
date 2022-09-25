@@ -8,18 +8,18 @@ body {
     margin: 0.5%;
 }
 
-body.index {
+body.index-page {
     background-image: url('../../resources/images/mountains.jpeg');
 }
 
-body.goals {
+body.goals-page {
     background-image: url('../../resources/images/darts.jpeg');
 }
 
-body.sport {
+body.sport-page {
     background-image: url('../../resources/images/gym-ring-boxing.jpeg');
 }
 
-body.thought {
+body.thoughts-page {
     background-image: url('../../resources/images/road.jpeg');
 }
