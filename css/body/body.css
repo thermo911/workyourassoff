@@ -1,11 +1,15 @@
 body {
-    height: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-color: black;
     padding: 0.5%;
-    margin: 0.5%;
+    box-sizing: border-box;
 }
 
 body.index-page {
@@ -21,5 +25,5 @@ body.sport-page {
 }
 
 body.thoughts-page {
-    background-image: url('../../resources/images/road.jpeg');
+    background-image: url('../../resources/images/desert.jpeg');
 }

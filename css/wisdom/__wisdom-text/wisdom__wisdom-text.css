@@ -1,6 +1,6 @@
 .wisdom__wisdom-text {
-    color: rgba(250, 250, 250, 0.8);
-    text-shadow: 1px 1px black;
+    color: black;
+    text-shadow: 0 0 3px white;
     font-size: 2em;
     text-align: center;
     letter-spacing: 0.2rem;

@@ -1,11 +1,21 @@
+@import url('./__item/goals__item.css');
+@import url('./__item-descr/goals__item-descr.css');
+@import url('./__item-text/goals__item-text.css');
+@import url('./__item-text/goals__item-text_expanded.css');
+@import url('./__title/goals__title.css');
+
 .goals {
     padding: 5%;
     width: 75%;
-    margin: auto;
-    box-sizing: border-box;
+    height: 100%;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 
     /* glass */
-    background-color: rgba(231, 231, 231, 0.5);
-    backdrop-filter: blur(5px);
+    background-color: rgba(231, 231, 231, 0.7);
+    backdrop-filter: blur(15px);
+
+    overflow-y: scroll;
 }

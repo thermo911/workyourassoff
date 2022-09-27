@@ -1,4 +1,14 @@
 footer {
     width: 100%;
-    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    footer {
+        display: none;
+    }
 }
