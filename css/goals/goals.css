@@ -13,9 +13,5 @@
     flex-direction: column;
     align-items: stretch;
 
-    /* glass */
-    background-color: rgba(231, 231, 231, 0.7);
-    backdrop-filter: blur(15px);
-
     overflow-y: scroll;
 }

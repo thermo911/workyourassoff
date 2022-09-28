@@ -1,10 +1,15 @@
+@import url('./__table/trainings__table.css');
+@import url('./__tbody/trainings__tbody.css');
+@import url('./__thead/trainings__thead.css');
+@import url('./__trow/trainings__trow.css');
+
 .trainings {
     padding: 5%;
-    width: 50%;
+    width: 75%;
     box-sizing: border-box;
     border-radius: 10px;
 
-    /* glass */
-    background-color: rgba(231, 231, 231, 0.5);
-    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

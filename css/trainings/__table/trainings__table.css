@@ -1,0 +1,11 @@
+table.trainings__table {
+    display: grid;
+    border-collapse: collapse;
+    min-width: 100%;
+    grid-template-columns: 
+        minmax(150px, 1fr)    /* date */
+        minmax(150px, 1.67fr) /* activity */
+        minmax(150px, 1.67fr) /* string result */
+        minmax(150px, 1.67fr) /* measuring units */
+    ;
+}
