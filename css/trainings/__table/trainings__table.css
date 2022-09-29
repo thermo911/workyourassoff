@@ -1,11 +1,13 @@
 table.trainings__table {
     display: grid;
-    border-collapse: collapse;
     min-width: 100%;
+    border-spacing: 1px;
+
     grid-template-columns: 
-        minmax(150px, 1fr)    /* date */
-        minmax(150px, 1.67fr) /* activity */
-        minmax(150px, 1.67fr) /* string result */
-        minmax(150px, 1.67fr) /* measuring units */
+        minmax(100px, 1fr)    /* date */
+        minmax(100px, 1.67fr) /* activity */
+        minmax(100px, 1.67fr) /* duration */
+        minmax(100px, 1.67fr) /* string result */
+        minmax(100px, 1.67fr) /* measuring units */
     ;
 }

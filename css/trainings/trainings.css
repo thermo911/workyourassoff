@@ -1,15 +1,20 @@
 @import url('./__table/trainings__table.css');
 @import url('./__tbody/trainings__tbody.css');
 @import url('./__thead/trainings__thead.css');
-@import url('./__trow/trainings__trow.css');
+@import url('./__th/trainings__th.css');
+@import url('./__tr/trainings__tr.css');
+@import url('./__td/trainings__td.css');
 
 .trainings {
     padding: 5%;
     width: 75%;
+    max-height: 100%;
     box-sizing: border-box;
     border-radius: 10px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    overflow-y: scroll;
 }

@@ -1,3 +1,4 @@
 thead.trainings__thead {
+    border-bottom: 1px solid black;
     display: contents;
 }

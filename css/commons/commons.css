@@ -9,10 +9,10 @@
 
 .smooth-app-2 {
     opacity: 0;
-    animation: ani 2s forwards;
+    animation: smooth-ani 2s forwards;
 }
 
-@keyframes ani {
-    0% {opacity: 0;}
+@keyframes smooth-ani {
+    0%   {opacity: 0;}
     100% {opacity: 1;}
 }

@@ -1,0 +1,9 @@
+tr.trainings__tr {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+    display: contents;
+}
+
+tr.trainings__tr:nth-of-type(odd) > td.trainings__td {
+    background-color: rgba(230, 230, 230, 0.3)
+}
