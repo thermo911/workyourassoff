@@ -9,11 +9,38 @@
 @import url('./trainings/trainings.css');
 @import url('./wisdom/wisdom.css');
 
+@font-face {
+    font-family: 'Cochin';
+    src: url('../resources/fonts/cochin/cochinltrusbyme.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cochin';
+    src: url('../resources/fonts/cochin/cochinltrusbyme_bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cochin';
+    src: url('../resources/fonts/cochin/cochinltrusbyme_italic.otf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cochin';
+    src: url('../resources/fonts/cochin/cochinltrusbyme_bolditalic.otf');
+    font-weight: bold;
+    font-style: italic;
+}
 
 html {
     height: 100%;
 }
 
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Cochin';
 }
