@@ -1,0 +1,6 @@
+th.trainings__th {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    word-break: break-all;
+}

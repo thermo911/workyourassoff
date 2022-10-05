@@ -1,25 +1,29 @@
 body {
-    height: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-color: black;
     padding: 0.5%;
-    margin: 0.5%;
+    box-sizing: border-box;
 }
 
-body.index {
+body.index-page {
     background-image: url('../../resources/images/mountains.jpeg');
 }
 
-body.goals {
+body.goals-page {
     background-image: url('../../resources/images/darts.jpeg');
 }
 
-body.sport {
+body.sport-page {
     background-image: url('../../resources/images/gym-ring-boxing.jpeg');
 }
 
-body.thought {
-    background-image: url('../../resources/images/road.jpeg');
+body.thoughts-page {
+    background-image: url('../../resources/images/desert.jpeg');
 }

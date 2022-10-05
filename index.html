@@ -6,25 +6,34 @@
     <title>Work your ass off!</title>
 
     <link rel="stylesheet" href="./css/root.css"/>
+    <script src="./js/menu.js"></script>
+    <script>
+        window.addEventListener('resize', function(event) {
+            hideMenuOnResize('menu');
+        });
+    </script>
 </head>
-<body class="index">
+<body class="index-page">
     <header class="header">
-        <div class="header__menu-btn">
+        <div class="header__menu-btn" onclick="changeMenuVisibility('menu')">
             <img class="header__menu-btn-image" src="./resources/images/vector/menu.svg"/>
         </div>
-        <nav class="menu">
-            <a class="menu__item" href="./index.html">главная</a>
+        <nav id="menu" class="menu menu_hidden">
+            <a class="menu__item" href="#">главная</a>
             <a class="menu__item" href="./goals.html">цели</a>
             <a class="menu__item" href="./sport.html">спорт</a>
             <a class="menu__item" href="./thoughts.html">мысли</a>
         </nav>
     </header>
     <main class="main">
-        <div class="wisdom">
+        <div class="wisdom glass smooth-app-2">
             <p class="wisdom__wisdom-text">
-                <q>Waste no more time arguing about what a good man should be. Be one.</q><br>
-                <cite>Markus Aurelius</cite>
+                <q>Желающего идти судьба ведет, не желающего — влачит</q><br>
+                <cite>Луций Анней Сенека</cite>
             </p>
         </div>
     </main>
+    <footer>
+        Здесь может быть Ваша длииииииииииииииииинная реклама, закрепленная абсолютным позиционированием!
+    </footer>
 </body>

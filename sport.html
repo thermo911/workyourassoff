@@ -6,25 +6,64 @@
     <title>Спорт</title>
 
     <link rel="stylesheet" href="./css/root.css"/>
+    <script src="./js/menu.js"></script>
+    <script>
+        window.addEventListener('resize', function(event) {
+            hideMenuOnResize('menu');
+        });
+    </script>
 </head>
-<body class="sport">
+<body class="sport-page">
     <header class="header">
-        <div class="header__menu-btn">
+        <div class="header__menu-btn" onclick="changeMenuVisibility('menu')">
             <img class="header__menu-btn-image" src="./resources/images/vector/menu.svg"/>
         </div>
-        <nav class="menu">
+        <nav id="menu" class="menu menu_hidden">
             <a class="menu__item" href="./index.html">главная</a>
             <a class="menu__item" href="./goals.html">цели</a>
-            <a class="menu__item" href="./sport.html">спорт</a>
+            <a class="menu__item" href="#">спорт</a>
             <a class="menu__item" href="./thoughts.html">мысли</a>
         </nav>
     </header>
     <main class="main">
-        <div class="wisdom">
-            <p class="wisdom__wisdom-text">
-                <q>Waste no more time arguing about what a good man should be. Be one.</q><br>
-                <cite>Markus Aurelius</cite>
-            </p>
+        <div class="trainings glass smooth-app-2">
+            <table class="trainings__table">
+                <thead class="trainings__thead">
+                    <tr class="trainings__tr">
+                        <th class="trainings__th">Дата</th>
+                        <th class="trainings__th">Активность</th>
+                        <th class="trainings__th">Продолжительность</th>
+                        <th class="trainings__th">Результат</th>
+                        <th class="trainings__th">Единицы измерения</th>
+                    </tr> 
+                </thead>
+                <tbody class="trainings__tbody">
+                    <tr class="trainings__tr">
+                        <td class="trainings__td">01.01.1970</td>
+                        <td class="trainings__td">Бег</td>
+                        <td class="trainings__td">3:00:00</td>
+                        <td class="trainings__td">42.2</td>
+                        <td class="trainings__td">км</td>
+                    </tr>
+                    <tr class="trainings__tr">
+                        <td class="trainings__td">01.01.1970</td>
+                        <td class="trainings__td">Бег</td>
+                        <td class="trainings__td">3:00:00</td>
+                        <td class="trainings__td">42.2</td>
+                        <td class="trainings__td">км</td>
+                    </tr>
+                    <tr class="trainings__tr">
+                        <td class="trainings__td">01.01.1970</td>
+                        <td class="trainings__td">Бег</td>
+                        <td class="trainings__td">3:00:00</td>
+                        <td class="trainings__td">42.2</td>
+                        <td class="trainings__td">км</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </main>
+    <footer>
+        Здесь может быть Ваша длииииииииииииииииинная реклама, закрепленная абсолютным позиционированием!
+    </footer>
 </body>

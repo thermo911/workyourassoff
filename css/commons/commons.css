@@ -1,8 +1,18 @@
 .glass {
     background-color: rgba(231, 231, 231, 0.5);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
 }
 
 .rounded {
     border-radius: 10px;
+}
+
+.smooth-app-2 {
+    opacity: 0;
+    animation: smooth-ani 2s forwards;
+}
+
+@keyframes smooth-ani {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
 }

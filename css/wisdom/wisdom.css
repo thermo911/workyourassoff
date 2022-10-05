@@ -1,13 +1,8 @@
 @import url('./__wisdom-text/wisdom__wisdom-text.css');
 
 .wisdom {
-    padding: 5%;
+    padding: max(5%, 20px);
     width: 50%;
-    margin: auto;
     box-sizing: border-box;
     border-radius: 10px;
-
-    /* glass */
-    background-color: rgba(231, 231, 231, 0.5);
-    backdrop-filter: blur(5px);
 }
