@@ -1,7 +1,7 @@
 @import url('./__wisdom-text/wisdom__wisdom-text.css');
 
 .wisdom {
-    padding: 5%;
+    padding: max(5%, 20px);
     width: 50%;
     box-sizing: border-box;
     border-radius: 10px;

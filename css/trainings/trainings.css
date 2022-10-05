@@ -6,7 +6,7 @@
 @import url('./__td/trainings__td.css');
 
 .trainings {
-    padding: 5%;
+    padding: max(5%, 20px);
     width: 75%;
     max-height: 100%;
     box-sizing: border-box;
