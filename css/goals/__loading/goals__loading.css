@@ -1,0 +1,8 @@
+.goals__loading {
+    color: black;
+    font-size: 1.5em;
+}
+
+.goals__loading_hidden {
+    display: none;
+}

@@ -1,0 +1,15 @@
+.trainings__form {
+    padding: max(2.5%, 10px);
+    width: 75%;
+    max-height: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trainings__form > * {
+    margin: max(1%, 5px);
+}

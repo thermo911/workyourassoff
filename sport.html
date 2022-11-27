@@ -7,13 +7,14 @@
 
     <link rel="stylesheet" href="./css/root.css"/>
     <script src="./js/menu.js"></script>
+    <script src="./js/sport.js"></script>
     <script>
         window.addEventListener('resize', function(event) {
             hideMenuOnResize('menu');
         });
     </script>
 </head>
-<body class="sport-page">
+<body class="sport-page" onload="loadSportForm()">
     <header class="header">
         <div class="header__menu-btn" onclick="changeMenuVisibility('menu')">
             <img class="header__menu-btn-image" src="./resources/images/vector/menu.svg"/>
@@ -26,13 +27,15 @@
         </nav>
     </header>
     <main class="main">
+
+        <!-- form will be placed by loadSportForm() function -->
+
         <div class="trainings glass smooth-app-2">
-            <table class="trainings__table">
+            <table id="sportsTable" class="trainings__table">
                 <thead class="trainings__thead">
                     <tr class="trainings__tr">
                         <th class="trainings__th">Дата</th>
                         <th class="trainings__th">Активность</th>
-                        <th class="trainings__th">Продолжительность</th>
                         <th class="trainings__th">Результат</th>
                         <th class="trainings__th">Единицы измерения</th>
                     </tr> 
@@ -41,21 +44,18 @@
                     <tr class="trainings__tr">
                         <td class="trainings__td">01.01.1970</td>
                         <td class="trainings__td">Бег</td>
-                        <td class="trainings__td">3:00:00</td>
                         <td class="trainings__td">42.2</td>
                         <td class="trainings__td">км</td>
                     </tr>
                     <tr class="trainings__tr">
                         <td class="trainings__td">01.01.1970</td>
                         <td class="trainings__td">Бег</td>
-                        <td class="trainings__td">3:00:00</td>
                         <td class="trainings__td">42.2</td>
                         <td class="trainings__td">км</td>
                     </tr>
                     <tr class="trainings__tr">
                         <td class="trainings__td">01.01.1970</td>
                         <td class="trainings__td">Бег</td>
-                        <td class="trainings__td">3:00:00</td>
                         <td class="trainings__td">42.2</td>
                         <td class="trainings__td">км</td>
                     </tr>
@@ -67,3 +67,4 @@
         Здесь может быть Ваша длииииииииииииииииинная реклама, закрепленная абсолютным позиционированием!
     </footer>
 </body>
+</html>

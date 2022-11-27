@@ -1,0 +1,8 @@
+.goals__loading-failure {
+    color: black;
+    font-size: 1.5em;
+}
+
+.goals__loading-failure_hidden {
+    display: none;
+}

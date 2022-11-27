@@ -6,7 +6,6 @@ table.trainings__table {
     grid-template-columns: 
         minmax(100px, 1fr)    /* date */
         minmax(100px, 1.67fr) /* activity */
-        minmax(100px, 1.67fr) /* duration */
         minmax(100px, 1.67fr) /* string result */
         minmax(100px, 1.67fr) /* measuring units */
     ;
