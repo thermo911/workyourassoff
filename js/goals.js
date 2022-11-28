@@ -60,8 +60,19 @@ function fetchItems() {
         .then((response) => {
             return response.json();
         })
-        .then((data) => addGoalItems(data, 'goals'))
+        .then((data) => {
+            addGoalItems(data, 'goals');
+        })
         .catch(() => {
+            vex.dialog.confirm({
+                message: 'Есть проблемы. Перезагрузить страницу?',
+                className: 'vex-theme-wireframe',
+                callback: function (value) {
+                    if (value) {
+                        window.location.reload();
+                    }
+                }
+            });
             showLoadingFailure('goals-loading-failure');
         })
         .finally(() => hideLoading('goals-loading'));

@@ -7,13 +7,15 @@
 
     <link rel="stylesheet" href="./css/root.css"/>
     <script src="./js/menu.js"></script>
+    <script src="./js/slidr.min.js"></script>
+    <script src="./js/wisdom.js"></script>
     <script>
         window.addEventListener('resize', function(event) {
             hideMenuOnResize('menu');
         });
     </script>
 </head>
-<body class="index-page">
+<body class="index-page" onload="initSlidr('wisdom-slidr')">
     <header class="header">
         <div class="header__menu-btn" onclick="changeMenuVisibility('menu')">
             <img class="header__menu-btn-image" src="./resources/images/vector/menu.svg"/>
@@ -27,10 +29,20 @@
     </header>
     <main class="main">
         <div class="wisdom glass smooth-app-2">
-            <p class="wisdom__wisdom-text">
-                <q>Желающего идти судьба ведет, не желающего — влачит</q><br>
-                <cite>Луций Анней Сенека</cite>
-            </p>
+            <div id="wisdom-slidr" style="width: 100%;">
+                <p class="wisdom__wisdom-text" data-slidr="0">
+                    <q>Желающего идти судьба ведет, не желающего — влачит</q><br>
+                    <cite>Луций Анней Сенека</cite>
+                </p>
+                <p class="wisdom__wisdom-text" data-slidr="1">
+                    <q>Лучщий раб тот, кто считает себя свободным</q><br>
+                    <cite>Платон</cite>
+                </p>
+                <p class="wisdom__wisdom-text" data-slidr="2">
+                    <q>Если закрыть глаза, становится темно</q><br>
+                    <cite>Джейсон Стетхэм</cite>
+                </p>
+            </div>
         </div>
     </main>
     <footer>

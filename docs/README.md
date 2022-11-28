@@ -1,5 +1,10 @@
 # Work your ass off!
 
+## Used libraries
+Thanks to wonderful [slidr](https://github.com/bchanx/slidr) and [vex](https://github.com/HubSpot/vex) projects
+developed under MIT licenses!
+
+
 ![pages-build-deployment](https://github.com/thermo911/workyourassoff/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 *Александр Блажков, M33001*

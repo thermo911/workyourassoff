@@ -8,11 +8,18 @@
     <link rel="stylesheet" href="./css/root.css"/>
     <script src="./js/menu.js"></script>
     <script src="./js/goals.js"></script>
+
+    <script src="./vex/vex.combined.min.js"></script>
+    <script>vex.defaultOptions.className = 'vex-theme-fireframe';</script>
+    <link rel="stylesheet" href="./vex/vex.css" />
+    <link rel="stylesheet" href="./vex/vex-theme-fireframe.css" />
+
     <script>
         window.addEventListener('resize', function(event) {
             hideMenuOnResize('menu');
         });
     </script>
+    
 </head> 
 <body class="goals-page" onload="fetchItems()">
     <header class="header">
