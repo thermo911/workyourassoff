@@ -29,9 +29,6 @@ developed under MIT licenses!
 ### Спорт
 ![sport page blueprint](./images/sport.jpg)
 
-### Размышления
-![meditations page blueprint](./images/meditations.jpg)
-
 
 
 
