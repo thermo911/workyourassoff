@@ -6,6 +6,7 @@
     <title>Спорт</title>
 
     <link rel="stylesheet" href="./css/root.css"/>
+    <script src="./js/pageLoadTimer.js"></script>
     <script src="./js/menu.js"></script>
     <script src="./js/sport.js"></script>
     <script>
@@ -13,19 +14,12 @@
             hideMenuOnResize('menu');
         });
     </script>
+    <script src="./js/layout.js"></script>
 </head>
 <body class="sport-page" onload="loadSportForm()">
-    <header class="header">
-        <div class="header__menu-btn" onclick="changeMenuVisibility('menu')">
-            <img class="header__menu-btn-image" src="./resources/images/vector/menu.svg"/>
-        </div>
-        <nav id="menu" class="menu menu_hidden">
-            <a class="menu__item" href="./index.html">главная</a>
-            <a class="menu__item" href="./goals.html">цели</a>
-            <a class="menu__item" href="#">спорт</a>
-            <a class="menu__item" href="./thoughts.html">мысли</a>
-        </nav>
-    </header>
+    
+    <!-- header will be placed here -->
+
     <main class="main">
 
         <!-- form will be placed by loadSportForm() function -->
@@ -63,8 +57,7 @@
             </table>
         </div>
     </main>
-    <footer>
-        Здесь может быть Ваша длииииииииииииииииинная реклама, закрепленная абсолютным позиционированием!
+    <footer id="load-time-stats" class="footer">
     </footer>
 </body>
 </html>

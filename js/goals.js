@@ -43,7 +43,7 @@ function getRandomInt(max) {
 function getGoalHtml(goal) {
     return `<div class="goals__item" onclick="expandItemOnClick(this)">
     <p class="goals__item-title">${goal.title}</p>
-    <p class="goals__item-text" onclick="expandItemOnClick(this)">${goal.title.repeat(getRandomInt(20))}</p>
+    <p class="goals__item-text" onclick="expandItemOnClick(this)">${goal.title.repeat(1 + getRandomInt(10))}</p>
 </div>`;
 }
 
